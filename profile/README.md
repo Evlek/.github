@@ -2,34 +2,33 @@
 
 **AI-native property discovery for Northern Cyprus** — MCP-powered, multi-LLM.
 
-🌐 [evlek.app](https://evlek.app) · 📱 [iOS App](https://apps.apple.com/app/id6760562764) · 🤖 [MCP Server](https://evlek.app/api/mcp)
+🌐 [evlek.app](https://evlek.app) · 📱 [iOS App](https://apps.apple.com/app/id6760562764) · 🤖 [Android](https://play.google.com/store/apps/details?id=app.evlek.mobile) · [MCP Server](https://evlek.app/api/mcp)
 
 ---
 
 ## What we do
 
-- Verified KYC-gated property listings for Northern Cyprus
-- Multi-LLM AI agents via **Model Context Protocol (MCP)** standard — discoverable from ChatGPT, Claude, and Gemini
+- Verification-aware property listings for Northern Cyprus
+- Multi-LLM AI agents via **Model Context Protocol (MCP)** — discoverable from ChatGPT, Claude, Gemini, Perplexity
 - 5 languages: TR / EN / RU / DE / AR
-- 335+ pages live · iOS app on App Store · Android internal test
+- iOS app on App Store · Android on Google Play
 - Bootstrapped solo founder · Kyrenia, Cyprus
 
 ## MCP Server
 
-`app.evlek/mcp-server` v1.2.1 — LIVE in the [Anthropic MCP Registry](https://registry.modelcontextprotocol.io/v0/servers/app.evlek/mcp-server)
+`app.evlek/mcp-server` **v1.5.0** — LIVE in the [MCP Registry](https://registry.modelcontextprotocol.io)
 
-Available tools:
-- `search_listings` · `get_price_index` · `get_market_overview`
-- `compare_cities` · `get_yield_estimate` · `get_legal_info`
-- `suggest_neighborhood` · `compare_properties` · `get_district_profile`
+16 tools · 8 resources · 2 resource templates · 4 prompts · public read-only · ChatGPT-compatible (`search`/`fetch`)
+
+Tools include: `search_listings`, `get_price_index`, `get_market_overview`, `compare_cities`, `get_yield_estimate`, `get_legal_info`, `suggest_neighborhood`, `compare_properties`, `get_district_profile`, `assess_title_risk`, `foreign_buyer_roadmap`, `student_housing`, `payment_plan`, `get_listing_detail`, `search`, `fetch`.
 
 ## Tech Stack
 
-Next.js 16 · React 19 · Supabase · Vercel · Mapbox · Gemini 2.0 · OpenAI Vision · TypeScript
+Next.js 16 · React 19 · Supabase · Vercel · Mapbox · Gemini · OpenAI Vision · TypeScript
 
 ## Open Source
 
-- [`evlek-mcp`](https://github.com/Evlek/evlek-mcp) — MCP server public mirror
+- [`evlek-mcp`](https://github.com/Evlek/evlek-mcp) — MCP server public manifest, docs, examples (MIT)
 
 ---
 
